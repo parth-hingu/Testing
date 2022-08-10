@@ -1,0 +1,4 @@
+repo=Repo(repo_dir)
+
+diff=repo.git.diff(repo.head.commit.tree)
+print(diff)
